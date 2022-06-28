@@ -51,6 +51,125 @@ ul{
     .text-dark{
         color: var(--text-dark);
     }
+    .text-gray{
+        color: var(--text-gray);
+    }
+    .text-white{
+        color: var(--text-white);
+    }
+    .text-light{
+        color: var(--text-light);
+    }
+    .text-dark2{
+        color: var(--text-dark2);
+    }
+    .text-red{
+        color: var(--text-red);
+    }
+    .bg-blue{
+        color: var(--bg-blue);
+    }
+    .bg-red{
+        color: var(--bg-red);
+    }
+    .bg-yellow{
+        color: var(--bg-yellow);
+    }
+    .bg-purple{
+        color: var(--bg-purple);
+    }
+    .bg-gradient{
+        color: var(--bg-gradient);
+    }
+    .bg-gradient-indigo{
+        color: var(--bg-gradient-indigo);
+    }
+    .bg-gradient-peach{
+        color: var(--bg-gradient-peach);
+    }
+    .font-poppins{
+        font-family: var(--font-poppins);
+    }
+    .text-center{
+        text-align: center;
+    }
+    .text-sm{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .text-md{
+        font-size: 2.2em;
+        line-height: 3rem;
+    }
+    .text-xl{
+        font-size: 3em;
+    }
+    .text-2xl{
+        font-size: 5em;
+    }
+    .font-bold{
+        font-weight: bold;
+    }
+    .flex{
+        display: flex;
+    }
+    .flex-row{
+        flex-direction: row;
+    }
+    .flex-column{
+        flex-direction: column;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    .flex-initial{
+        flex: 0 1 auto;
+    }
+    .flex-grow{
+        flex-grow: 1;
+    }
+    .justify-center{
+        justify-content: center;
+    }
+    .text-uppercase{
+        text-transform: uppercase;
+    }
+    .container{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 98%;
+    }
+    .mx-auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .py-2{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .py-5{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .py-10{
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+    .px-5{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .px-10{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    .link{
+        color: var(--text-dark2);
+        font-weight: bold;
+    }
+    
+
 
 
 
