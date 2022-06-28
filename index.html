@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- fontawesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -16,7 +18,40 @@
     =            header section             =
 =============================================-->
     <header class="container-fluid">
-        <h1>Navigation Menu</h1>
+        <nav id="nav" class="flex font-poppins">
+            <div class="nav-brand">
+                <a href="" class="text-dark">Digital</a>
+            </div>
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+            </div>
+            <div class="collapse flex-grow">
+                <ul class="flex">
+                    <li>
+                        <a href="#" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Service</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-initial">
+                <ul class="flex">
+                    <button class="btn btn-primary bg-yellow">Start a project</button>
+                </ul>
+            </div>
+        </nav>
     </header>
 
 

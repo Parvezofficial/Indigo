@@ -67,25 +67,25 @@ ul{
         color: var(--text-red);
     }
     .bg-blue{
-        color: var(--bg-blue);
+        background: var(--bg-blue);
     }
     .bg-red{
-        color: var(--bg-red);
+        background: var(--bg-red);
     }
     .bg-yellow{
-        color: var(--bg-yellow);
+        background: var(--bg-yellow);
     }
     .bg-purple{
-        color: var(--bg-purple);
+        background: var(--bg-purple);
     }
     .bg-gradient{
-        color: var(--bg-gradient);
+        background: var(--bg-gradient);
     }
     .bg-gradient-indigo{
-        color: var(--bg-gradient-indigo);
+        background: var(--bg-gradient-indigo);
     }
     .bg-gradient-peach{
-        color: var(--bg-gradient-peach);
+        background: var(--bg-gradient-peach);
     }
     .font-poppins{
         font-family: var(--font-poppins);
