@@ -234,6 +234,7 @@ ul{
 .collapse{
     max-height: 0;
     overflow-y: hidden;
+    transition: 0.9s all ease;
 }
 .collapse ul{
     flex-direction: column;
