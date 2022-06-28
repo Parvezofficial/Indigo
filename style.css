@@ -67,7 +67,7 @@ ul{
         color: var(--text-red);
     }
     .bg-blue{
-        background: var(--bg-blue);
+        background-color: var(--bg-blue);
     }
     .bg-red{
         background: var(--bg-red);
@@ -96,6 +96,10 @@ ul{
     .text-sm{
         font-size: 1em;
         line-height: 1.5em;
+    }
+    .text-lg{
+        font-size: 2rem;
+        line-height: 2rem;
     }
     .text-md{
         font-size: 2.2em;
@@ -212,3 +216,48 @@ ul{
     }
 
 /*----------Global Classes---------------*/
+
+/*----------Navbar style---------------*/
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--text-light);
+    flex-direction: column;
+}
+.nav-brand  a{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.collapse{
+    max-height: 0;
+    overflow-y: hidden;
+}
+.collapse ul{
+    flex-direction: column;
+    text-align: center;
+    padding: 0 3rem;
+}
+.collapse ul > li{
+    padding: 0 1.5rem;
+    line-height: 3rem;
+    font-size: 1.1em;
+}
+.toggle-btn button{
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    color: var(--text-dark2);
+}
+.flex-initial{
+    display:none;
+}
+.active{
+    max-height: 50vh;
+}
+
+/*----------Navbar style---------------*/
