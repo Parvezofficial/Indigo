@@ -168,10 +168,47 @@ ul{
         color: var(--text-dark2);
         font-weight: bold;
     }
-    
-
-
-
-
+    .link:hover{
+        color: var(--text-red);
+    }
+    .btn{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .btn-primary{
+        padding: .8rem 2rem;
+        border-radius: 50px;
+        font-family: var(--font-poppins);
+        font-weight: bold;
+    }
+    .btn-shadow{
+        box-shadow: var(--box-shadow);
+    }
+    .btn-primary:hover{
+        background: var(--bg-gradient-indigo);
+    }
+    .bg-cover{
+        background: var(--bg-cover);
+        object-fit: fill;
+    }
+    .d-inline{
+        display: inline-block;
+    }
+    .d-block{
+        display: block ;
+    }
+    .grid{
+        display: grid;
+    }
+    .cols-1{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+    .w-100{
+        width: 100%;
+    }
+    .w-50{
+        width: 50%;
+    }
 
 /*----------Global Classes---------------*/
