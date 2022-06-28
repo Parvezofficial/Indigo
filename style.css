@@ -45,3 +45,14 @@ ul{
 }
 
 /* ---------variables-------------- */
+
+/*----------Global Classes---------------*/
+
+    .text-dark{
+        color: var(--text-dark);
+    }
+
+
+
+
+/*----------Global Classes---------------*/
