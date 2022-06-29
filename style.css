@@ -217,6 +217,45 @@ ul{
 
 /*----------Global Classes---------------*/
 
+
+/*----------Media queries---------------*/
+
+/* for large screen sm(640px) */
+@media(min-width:640px){
+    
+}
+/* for large screen md(768px) */
+@media(min-width:768px){
+
+}
+/* for large screen lg(1020px) */
+@media(min-width:1020px){
+    #nav{
+        flex-direction: row!Important;
+        align-items: center;
+        background-color: transparent !important;
+    }
+    .toggle-btn button{
+        display: none;
+    }
+    .collapse{
+        max-height: initial!Important;
+    }
+    .collapse ul{
+        flex-direction: row!Important;
+    }
+    .flex-initial{
+        display: inline-block! important;
+    }
+}
+/* for large screen xl(1280px) */
+@media(min-width:1280px){
+
+}
+
+/*----------Media queries---------------*/
+
+
 /*----------Navbar style---------------*/
 #nav{
     position: absolute;
